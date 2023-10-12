@@ -1,0 +1,18 @@
+public class ShopProgram {
+    public static void main(String[] args) {
+        int price1 = 40;
+        String productName1 = "Pears";
+
+        int price2 = 20;
+        String productName2 = "Apples";
+        
+        int price3 = 80 ;
+        String productName3 = "Coconuts";
+        
+
+        System.out.println("List of products in the store:");
+        System.out.println("Name: " + productName1 + ", price: " + price1);
+        System.out.println("Name: " + productName2 + ", price: " + price2);
+        System.out.println("Name: " + productName3 + ", price: " + price3);
+    }
+}

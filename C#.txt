@@ -1,0 +1,19 @@
+using System;
+
+class Program {
+    static void Main() {
+        int price1 = 40;
+        string productName1 = "Banans";
+        
+        int price2 = 60;
+        string productName2 = "Watermelons";
+        
+        int price3 = 30;
+        string productName3 = "Peaches";
+        
+        Console.WriteLine("List of products in the store:");
+        Console.WriteLine("Name: " + productName1 + " Price: " + price1);
+        Console.WriteLine("Name: " + productName2 + " Price: " + price2);
+        Console.WriteLine("Name: " + productName3 + " Price: " + price3);
+    }
+}

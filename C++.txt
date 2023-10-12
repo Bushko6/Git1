@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Product {
+public:
+    string productName;
+    int price;
+
+    Product(string name, int p) : productName(name), price(p) {}
+};
+
+int main() {
+    Product product1("Apples", 10);
+    Product product2("Bananas", 20);
+    Product product3("Peaches", 50);
+
+    cout << "Список продуктів у магазині:" << endl;
+    cout << "Назва: " << product1.productName << ", Ціна: " << product1.price << endl;
+    cout << "Назва: " << product2.productName << ", Ціна: " << product2.price << endl;
+    cout << "Назва: " << product3.productName << ", Ціна: " << product3.price << endl;
+
+    return 0;
+}
